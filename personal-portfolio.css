@@ -1,0 +1,20 @@
+* {
+    background-color:rgb(79, 114, 114);
+}
+
+header {
+    display: flex;
+    border: solid black;
+    justify-content: space-between;
+    flex-wrap: wrap;   
+    padding: 60px;
+    background:rgb(208, 219, 219)   
+}
+
+img {
+    border-radius: 50%;
+    border: 5px solid black;
+    border-radius: 4px;
+    padding: 0px;
+    width: 150px;
+}
