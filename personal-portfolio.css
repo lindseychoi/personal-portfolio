@@ -3,7 +3,7 @@ h2 {
     border-style: solid;
 }
 
-img {
+.profilepic {
     border-radius: 50%;
     border: 5px solid black;
     padding: 0px;
@@ -13,9 +13,10 @@ img {
 nav {
     display: flex;
     background-color: rgb(208, 219, 219);
+    flex-direction: row-reverse;
   }
 
-  nav a {
+nav a {
     color: #13293d;
     padding: 14px 30px;
     text-decoration: none;
@@ -30,6 +31,20 @@ nav {
     border-width: 3px;
     background:rgb(208, 219, 219);
   }
+
+  body {margin:25px;}
+
+div.polaroid {
+  width: 25%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+}
+
+div.container {
+  text-align: center;
+  padding: 10px 20px;
+}
 
   @media screen and (max-width: 768px) {
     main,
