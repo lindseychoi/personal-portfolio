@@ -19,6 +19,17 @@
   padding: 5%;
 }
 
+.carousel-height {
+  height: 600px;
+  width: 600px;
+  align-items: center;
+  padding: 5%;
+}
+
+h2 {
+  text-align: center;
+}
+
 nav {
     display: inline-block;
     width: 100%;
