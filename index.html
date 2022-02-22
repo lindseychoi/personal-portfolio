@@ -12,7 +12,7 @@
 
 <body>
   <main>
-    <header class="jumbotron">
+    <header class="jumbotron colors-behind">
       <h2>Lindsey Choi</h2>
       <h3>Professional Portfolio</h3>
       <nav>
@@ -25,52 +25,90 @@
     </br>
 
     <section id="about me">
-      <div class="carousel-height">
-        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-          <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-              aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-              aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-              aria-label="Slide 3"></button>
+      <div class="container">
+        <div class="row">
+
+          <div class="col">
+            <div class="carousel-height h-100">
+              <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                </div>
+
+                <div class="carousel-inner">
+
+                  <div class="carousel-item active">
+                    <img src="./assets/personal-picture-fall-2021.JPG" class="d-block w-100"
+                      alt="personal-picture-fall-2021">
+                  </div>
+
+                  <div class="carousel-item colors-in-btwn h-100">
+                    <h2>Programming Skills</h2>
+                    <ul>
+                      <li>HTML</li>
+                      <li>CSS</li>
+                      <li>JavaScript</li>
+                      <li>API's</li>
+                      <li>Node</li>
+                  </div>
+
+                  <div class="carousel-item colors-in-btwn h-100">
+                    <h2>Professional Skills</h2>
+                    <ul>
+                      <li>Quick Learner</li>
+                      <li>Great communication</li> 
+                      <li>Team player</li> 
+                      <li>Managing difficult situations</li> 
+                      <li>Flexible</li>
+                    </ul>
+                  </div>
+
+
+                </div>
+
+                <button class="carousel-control-prev colors-in-btwn" type="button"
+                  data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
           </div>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="./assets/personal-picture-fall-2021.JPG" class="d-block w-100" alt="personal-picture-fall-2021">
-            </div>
-            <div class="carousel-item">
-              <h2>Programming Skills</h2>
-              <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-                <li>API's</li>
-                <li>Node</li>
-            </div>
-            <div class="carousel-item">
-              <h2>About Me</h2>
-              <p>I am an aspiring developer currently enrolled in the DU Programming Bootcamp. I am excited to learn new
-                skills
-                during my time in the program and look forward to receiving my certificate on June 13, 2022. My
-                programming
-                skills include experience with: HTML, CSS, JavaScript, API's, and Node. My professional
-                history includes a decade of experience in education. My time in that field helped me develop skills
-                such as
-                teamwork, crisis management, flexibility, and professionalism. I look forward to hearing from you!</p>
+
+          <div class="col">
+            <div class="card h-75" style="width: 23rem;">
+              <div class="card-body">
+                <h2 class="card-title">About Me</h2>
+                <p class="card-text">I am an aspiring developer currently enrolled in the DU Programming Bootcamp. I am excited to
+                  learn
+                  new
+                  skills
+                  during my time in the program and look forward to receiving my certificate on June 13, 2022. My
+                  programming
+                  skills include experience with: HTML, CSS, JavaScript, API's, and Node. My professional
+                  history includes a decade of experience in education. My time in that field helped me develop
+                  skills
+                  such as
+                  communication, teamwork, crisis management, flexibility, and professionalism. I look forward to
+                  hearing
+                  from you!</p>
+              </div>
             </div>
           </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-            data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-            data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
         </div>
+
+      </div>
       </div>
 
     </section>
@@ -99,7 +137,7 @@
               </div>
             </div>
           </div>
-
+          </br>
           <div class="col">
             <div class="card h-100" style="width: 18rem;">
               <img src="./assets/weather-tracker-screenshot.jpg" class="card-img-top"
@@ -118,7 +156,7 @@
               </div>
             </div>
           </div>
-
+          </br>
           <div class="col">
             <div class="card h-100" style="width: 18rem;">
               <img src="./assets/multiple-choice-screenshot.jpg" class="card-img-top"
@@ -141,16 +179,18 @@
 
     </br>
 
-    <section id="contact me" class="card">
-      <h2>Contact Me</h2>
-      <p>(719)641-6836</p>
-      <p>lindsey.e.choi@gmail.com</p>
-
-      <div class="btn-group" role="group" aria-label="Basic example">
-        <button type="button" class="btn btn-primary btn-small"
-          onclick="window.location.href='https://www.linkedin.com/in/lindseychoi/';">LinkedIn</button>
-        <button type="button" class="btn btn-primary btn-small"
-          onclick="window.location.href='https://www.github.com/lindseychoi';">GitHub</button>
+    <section id="contact me">
+      <div class="card text-center">
+        <div class="card-body">
+          <h5 class="card-title">Contact Me</h5>
+          <p class="card-text">(719)641-6836</p>
+          <p class="card-text">lindsey.e.choi@gmail.com</p>
+          <div class="btn-group" role="group" aria-label="Basic example">
+            <button type="button" class="btn btn-success btn-small"
+              onclick="window.location.href='https://www.linkedin.com/in/lindseychoi/';">LinkedIn</button>
+            <button type="button" class="btn btn-success btn-small"
+              onclick="window.location.href='https://www.github.com/lindseychoi';">GitHub</button>
+          </div>        
       </div>
     </section>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"

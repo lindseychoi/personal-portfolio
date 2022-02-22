@@ -26,6 +26,28 @@
   padding: 5%;
 }
 
+.colors-start {
+  background-color: whitesmoke;
+}
+
+.colors-in-btwn {
+  background-color: rgb(86, 145, 179);
+  padding: 5%;
+}
+
+.colors-behind {
+  background-color: rgb(86, 145, 179);
+}
+
+.btn-success {
+  background-color: rgb(86, 145, 179) !important;
+  border-color: whitesmoke !important;
+}
+
+.col {
+vertical-align: top;
+}
+
 h2 {
   text-align: center;
 }
