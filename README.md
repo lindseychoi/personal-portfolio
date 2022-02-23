@@ -1,11 +1,14 @@
 # personal-portfolio
 
-Homework #2 for DU Bootcamp
+Description:
 
-This assignment was to create a personal, professional portfolio that included a working navigation bar and links to hypothetical projects and applications.
+This application is a professional portfolio that includes a working navigation bar, links to projects I have worked on, my resume, and information on how to contact me.
+
+Projects referenced: Take a Hike, Multiple Choice Quiz, Weather Tracker
 
 GitHub Pages Link: https://lindseychoi.github.io/personal-portfolio/
 
 Screenshot:
 
-![Screenshot](./Screenshot personal portfolio.jpg)
+![Screenshot](./assets/screenshot-personal-portfolio.jpg)
+![Screenshot](./assets/screenshot-personal-portfolio-2.jpg)
