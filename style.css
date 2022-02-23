@@ -1,23 +1,10 @@
 
-.profilepic {
-    position: absolute;
-    left: 68%;
-    top: 5%;
-    border-radius: 50%;
-    border: 2px solid black;
-    padding: 0;
-    width: 420px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
 .jumbotron {
   text-align: center;
   padding: 5%; 
 }
 
-.card {
-  padding: 5%;
-}
+
 
 .carousel-height {
   height: 600px;
@@ -33,10 +20,11 @@
 .colors-in-btwn {
   background-color: rgb(86, 145, 179);
   padding: 5%;
+  border-color: rgb(31, 79, 107);
 }
 
 .colors-behind {
-  background-color: rgb(86, 145, 179);
+  background-color: rgb(46, 90, 116);
 }
 
 .btn-success {
@@ -50,7 +38,9 @@ vertical-align: top;
 
 h2 {
   text-align: center;
+  padding: 2%; 
 }
+
 
 nav {
     display: inline-block;
@@ -69,7 +59,9 @@ nav a {
     text-align: center;
   }
 
-
+body {
+  background-color: rgb(131, 176, 202) !important;
+}
 
 @media screen and (max-width: 768px) {
     main,
