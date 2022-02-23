@@ -36,6 +36,7 @@
 .btn-success {
   background-color: rgb(86, 145, 179) !important;
   border-color: whitesmoke !important;
+  font-family: 'Pacifico', cursive;
 }
 
 .col {
@@ -77,9 +78,7 @@ nav a {
     padding: 10px 15px;
     text-decoration: none;
     text-align: center;
-    background-color: ;
     font-family: 'Pacifico', cursive;
-
   }
 
 body {
