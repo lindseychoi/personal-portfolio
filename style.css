@@ -1,60 +1,52 @@
 
-.jumbotron {
-  text-align: center;
-  padding: 2%; 
-  font-family: 'Lora', serif;}
+* {
+  border-radius: 0 !important;
+  border: none !important;
+}
 
 .light-font-color {
   color: whitesmoke !important;
-}
-
-.dark-font-color {
-  color: rgb(46, 90, 116);
-}
-
-.carousel-height {
-  height: 600px;
-  width: 600px;
-  align-items: center;
-  padding: 5%;
 }
 
 .colors-start {
   background-color: whitesmoke;
 }
 
-.colors-in-btwn {
-  background-color: rgb(86, 145, 179);
-  border-color: rgb(31, 79, 107);
-}
-
 .colors-behind {
-  background-color: rgb(46, 90, 116);
+  background-color: #2A1B3D;
 }
 
 .btn-success {
-  background-color: rgb(86, 145, 179) !important;
-  border-color: whitesmoke !important;
-  font-family: 'Lora', serif;}
+  background-color: #D83F87 !important;
+  border: none !important;
+  border-radius: 0 !important;
+  font-family: 'Russo One', sans-serif;
+}
 
 .col {
   vertical-align: top;
+  left: 10%;
 }
 
 .card-title {
-  font-family: 'Lora', serif;
+  font-family: 'Russo One', sans-serif;
   text-align: center;
-  color:rgb(31, 79, 107);
+  color: #2A1B3D;
 }
 
 .title {
-  font-size: 50px;
+  font-size: 150px;
   padding: none;
   color: whitesmoke;
+  text-align: left !important;
+  left: 1%;
+  font-family: 'Elsie Swash Caps', cursive;
+  display: inline-block;
+  position: relative;
 }
 
 h2 {
-  font-family: 'Lora', serif;
+  font-family: 'Russo One', sans-serif;
   color: whitesmoke;
   text-align: center;
   padding: 2%; 
@@ -63,30 +55,57 @@ h2 {
 
 nav {
     display: inline-block;
-    width: 100%;
-    height: 50%;
     position: relative;
+    top: 25%;
+    left: 3%;
     font-size: 25px;
-    flex-direction: row;
-    text-align: center;
-  }
+    flex-direction: column;
+    padding: none;
+}
 
-nav a {
-    color:whitesmoke;
-    padding: 10px 15px;
-    text-decoration: none;
-    text-align: center;
-    font-family: 'Lora', serif;
+.card-body {
+  display: flex;
+  flex-direction: column; 
+  bottom: 0px;
+}
+
+.about-me {
+  left: 3%;
+}
+
+button {
+  border-radius: 0 !important;
+  flex-direction: column;
+}
+
+#button-bottom{
+  position: absolute;
+  bottom: 10px;
+  width: 50%;
 }
 
 body {
-  background-color: rgb(131, 176, 202) !important;
+  background-color: #44318D !important;
 }
+
+.btn {
+  display: block;
+  width: 100%;
+  border: none;
+  padding: 14px 28px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
 
 @media screen and (max-width: 768px) {
     main,
     nav {
-      flex-direction: column;
+      flex-direction: column !important;
     }
+   .image-details {
+      flex-direction: column !important;
+    }
+
     
   }
